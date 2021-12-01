@@ -63,7 +63,7 @@ Once you have performed the above setup, you can build and run the samples.
 1. Once a sample is installed on your device, you can use Finder to copy a Snapshot iModel to the device if you want to open local snapshot models in the sample:
     1. Select your connected device in Finder's left navigation pane.
     1. Select the Files tab.
-    1. Drag and drop .bim Snapshot iModel files into the "iTwin Starter" app or the "SwiftUIStarter" app.
+    1. Drag and drop .bim Snapshot iModel files into the "Restricted Views" app or the "SwiftUIStarter" app.
 
 ## Organization
 

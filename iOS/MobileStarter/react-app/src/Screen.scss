@@ -4,13 +4,15 @@
 *--------------------------------------------------------------------------------------------*/
 :root {
   --background-color: white;
-  --background-color-2: var(--muic-gray-9);
+  --background-color-2: var(--muic-gray-a);
+  --background-color-3: var(--muic-gray-8);
   --color: black;
 }
 
 [preferred-color-scheme = "dark"] {
   --background-color: var(--muic-gray-2);
   --background-color-2: var(--muic-gray-4);
+  --background-color-3: var(--muic-gray-5);
   --color: white;
 }
 

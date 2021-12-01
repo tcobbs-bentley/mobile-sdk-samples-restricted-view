@@ -21,7 +21,17 @@ import {
   useTabsAndStandAlonePanels,
   VisibleBackButton,
 } from "@itwin/mobile-ui-react";
-import { AboutBottomPanel, ToolAssistance, ElementPropertiesPanel, i18n, InfoBottomPanel, ToolsBottomPanel, ViewsBottomPanel } from "./Exports";
+import {
+  AboutBottomPanel,
+  ToolAssistance,
+  ElementPropertiesPanel,
+  i18n,
+  InfoBottomPanel,
+  ToolsBottomPanel,
+  ViewsBottomPanel,
+  ModelsBottomPanel,
+  CategoriesBottomPanel,
+} from "./Exports";
 import "./ModelScreen.scss";
 
 // tslint:disable-next-line: variable-name
@@ -59,6 +69,8 @@ export function ModelScreen(props: ModelScreenProps) {
   const infoLabel = React.useMemo(() => i18n("ModelScreen", "Info"), []);
   const aboutLabel = React.useMemo(() => i18n("ModelScreen", "About"), []);
   const viewsLabel = React.useMemo(() => i18n("ModelScreen", "Views"), []);
+  const modelsLabel = React.useMemo(() => i18n("ModelScreen", "Models"), []);
+  const categoriesLabel = React.useMemo(() => i18n("ModelScreen", "Categories"), []);
   const toolsLabel = React.useMemo(() => i18n("ModelScreen", "Tools"), []);
   const elementPropertiesLabel = React.useMemo(() => i18n("ModelScreen", "Properties"), []);
   // Any time we do anything asynchronous, we have to check if the component is still mounted,
@@ -155,6 +167,22 @@ export function ModelScreen(props: ModelScreenProps) {
         iModel={iModel}
         // Close the Views bottom panel when a view is selected from it.
         onViewSelected={() => { tabsAndPanelsAPI.closeSelectedPanel(); }}
+      />
+    },
+    {
+      label: modelsLabel,
+      isTab: true,
+      popup: <ModelsBottomPanel
+        key="models"
+        iModel={iModel}
+      />
+    },
+    {
+      label: categoriesLabel,
+      isTab: true,
+      popup: <CategoriesBottomPanel
+        key="categories"
+        iModel={iModel}
       />
     },
     {

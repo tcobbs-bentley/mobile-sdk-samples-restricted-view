@@ -23,7 +23,7 @@
 		1F2D7B672742D89000AAB11E /* PrintLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLogger.swift; sourceTree = "<group>"; };
 		1F2ECBF626D467320006AEF0 /* ITMApplication.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = ITMApplication.xcconfig; path = ../ITMApplication.xcconfig; sourceTree = "<group>"; };
 		1FBF081826D44A410078738A /* iOSSamples.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = iOSSamples.xcconfig; path = ../iOSSamples.xcconfig; sourceTree = "<group>"; };
-		1FC11150261FC44900835E6E /* iTwin Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTwin Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC11150261FC44900835E6E /* Restricted Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restricted Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC11153261FC44900835E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC11155261FC44900835E6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1FC1115A261FC44900835E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		1FC11151261FC44900835E6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FC11150261FC44900835E6E /* iTwin Starter.app */,
+				1FC11150261FC44900835E6E /* Restricted Views.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 				1FF1B9AB26BDCC35006D6385 /* ITwinMobile */,
 			);
 			productName = MobileStarter;
-			productReference = 1FC11150261FC44900835E6E /* iTwin Starter.app */;
+			productReference = 1FC11150261FC44900835E6E /* Restricted Views.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -366,14 +366,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLDT6Q3PUY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MobileStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentley.sample.MobileStarter;
-				PRODUCT_NAME = "iTwin Starter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bentley.sample.RestrictedViews;
+				PRODUCT_NAME = "Restricted Views";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,14 +386,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLDT6Q3PUY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MobileStarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentley.sample.MobileStarter;
-				PRODUCT_NAME = "iTwin Starter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bentley.sample.RestrictedViews;
+				PRODUCT_NAME = "Restricted Views";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

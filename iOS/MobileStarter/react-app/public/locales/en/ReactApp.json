@@ -2,7 +2,9 @@
   "Shared": {
     "SelectIModel": "Select iModel",
     "Error": "Error",
-    "OK": "OK"
+    "OK": "OK",
+    "All": "All",
+    "None": "None"
   },
   "App": {
     "LoadErrorFormat": "Error loading iModel:\n{{error}}"
@@ -43,6 +45,8 @@
     "Info": "Info",
     "About": "About",
     "Views": "Views",
+    "Models": "Models",
+    "Categories": "Categories",
     "Properties": "Properties",
     "Tools": "Tools"
   },
@@ -55,9 +59,6 @@
   },
   "InfoBottomPanel": {
     "PathFormat": "Path: {{filename}}"
-  },
-  "ViewsBottomPanel": {
-    "Views": "Views"
   },
   "ToolsBottomPanel": {
     "Angle": "Angle",
